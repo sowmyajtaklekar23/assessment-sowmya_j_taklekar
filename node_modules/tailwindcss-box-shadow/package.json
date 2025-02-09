@@ -1,0 +1,35 @@
+{
+  "name": "tailwindcss-box-shadow",
+  "version": "2.0.3",
+  "description": "Tailwind CSS plugin that generates box-shadow utility values exactly as they're defined in the config.",
+  "main": "src/index.js",
+  "scripts": {
+    "release": "npx np",
+    "dev": "vitest",
+    "test": "vitest run --coverage"
+  },
+  "license": "MIT",
+  "author": "Cosmin Popovici (https://github.com/cossssmin)",
+  "repository": "https://github.com/maizzle/tailwindcss-box-shadow.git",
+  "homepage": "https://github.com/maizzle/tailwindcss-box-shadow",
+  "bugs": {
+    "url": "https://github.com/maizzle/tailwindcss-box-shadow/issues"
+  },
+  "files": [
+    "src/index.js"
+  ],
+  "devDependencies": {
+    "@vitest/coverage-v8": "^2.0.2",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.4.0",
+    "vitest": "^2.0.2"
+  },
+  "peerDependencies": {
+    "tailwindcss": ">=3.4.0"
+  },
+  "keywords": [
+    "box-shadow",
+    "postcss",
+    "tailwindcss"
+  ]
+}
